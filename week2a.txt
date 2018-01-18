@@ -1,0 +1,59 @@
+//<start>
+/*Aim:Apply the fonts and styles to thw web pages.
+NAME:M.PUSHPASREE
+ROLL NO:15121A1260
+BRANCH:IT-A */
+*/
+HTML CODE:
+<html>
+<head>
+<link rel="stylesheet"href="week2a1.css"type="text/css">
+<title>frame3</title>
+<style>
+p.le
+{
+font-style:italic;
+font-weight:600;
+}
+body
+{
+background-color:cyan;
+}
+</style>
+</head>
+<body>
+<div style="margin-left:50px;border:2px dashed black;width:300px;
+height:500px;float:left;">
+<table border="0"width="100%"align="center">
+<tr><td rowspan="5"align="center"class="border">Description of the book store<p 
+class="ex2">hello users<br>you have visited bookstore,you will find sign-up i.e 
+registration process in the right side of the page</td></tr>
+</table>
+</div>
+<div style="margin-right:50px;border:2px solid blue;width:300px;height:400px;
+float:right;">
+<table align="center"border="0"width="100%"cellspacing="40">
+<tr><td align="center"><input type="text"value="username"align="center"></td></tr>
+<tr><td align="center"><input type="password"value="password"></td></tr>
+<tr><td align="center"><button type="button">sign-in</button></td></tr>
+<tr><td align="center">NEW USER</td></tr>
+<tr><td align="center"><a href="booksstore.html"trget="booksstore.html"target="frame3">
+create an account</a></td></tr>
+</table>
+<div>
+</body>
+</html>
+
+CSS CODE:
+
+<style>
+P.ex1
+{
+	font:15px,sans-serif;
+}
+P.ex2
+{
+	font:italic bold 30px georgia,serif;
+	color:red;
+}
+//<stop>
